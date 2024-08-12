@@ -1,0 +1,146 @@
+body {
+    background-color: #f8ebf3; /* Fondo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #000000; /* Títulos h1 */
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #ff1493; /* Títulos h2 */
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    color: #000000; /* Títulos h4 */
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+    color: #000000;
+}
+
+input[type="datetime-local"],
+input[type="int"],
+input[type="date"],
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000000; 
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #3498db; /* Color del submit en "reposo" */
+    color: #ffffff; /* Color de las letras dentro del botón submit */
+    border: 1px solid #000000; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff1493; /* Más oscuro al pasar el ratón */
+}
+
+button {
+    color: #ff69b4; /* Botones */
+    background-color: #3498db; 
+    color: #ffffff; 
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #ff1493; /* Más oscuro pasando el mouse */
+}
+
+ul:hover {
+    color: #ff1493; /* Color letra de las listas */
+    background-color: #f096c3; /* Color de las listas */
+}
+
+.navbar {
+    background-color: #ff1493;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a,
+.navbar ul li summary {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover,
+.navbar ul li summary:hover {
+    background-color: #3498db;
+}
+
+.navbar ul li:hover details {
+    display: block;
+}
+
+
+
+img {
+    border-radius: 15px;
+    border: solid #000000 1px;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; 
+}
+
+
+
+
+
+li a[href="POR DEFINIR"]:hover {
+    color: red; /* Cambia a tu color deseado */
+}

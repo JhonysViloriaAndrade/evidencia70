@@ -1,0 +1,144 @@
+body {
+    background-color: #f8ebf3; /* aqui esta lo del fondo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center-content {
+    text-align: center;
+    margin-top: 50px; /* aqui lo del div de la imagen */
+}
+
+h1 {
+    color: #ff1493; /* titulo h1 */
+    
+}
+
+p {
+    color: #ff69b4; /* parrafos, lo quite */
+}
+
+button {
+    color: #ff69b4; /* botones */
+    background-color: #3498db; 
+    color: #ffffff; 
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #ff1493; /* más oscuro pasando el mouse */
+}
+
+input[type="email"],
+input[type="password"]
+{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000000; 
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000000; 
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000000; 
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="int"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000000; 
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+
+input[type="submit"] {
+    background-color: #3498db; /* color del submit en "reposo" */
+    color: #ffffff; /* color de las letras dentro del boton submit */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff1493; /*  más oscuro al pasar el ratón */
+}
+
+
+
+ul :hover {
+    color: #ff1493; /* color letra de las lista */
+    background-color: #f096c3; /* color de las lista */
+    
+}
+
+
+
+/* definir caracteristicas del proximo*/
+.navbar {
+    background-color: #ff1493;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul li {
+    position:relative;
+}
+
+.navbar ul li a,
+.navbar ul li summary {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover,
+.navbar ul li summary:hover {
+    background-color: #3498db;
+}
+
+.navbar ul li:hover details {
+    display: block;
+}
+
+/* ESTO CORRESPONDE A CCS DEL CONTENEDOR CATEGORIAS*/
+
+img{
+    border-radius: 15px;
+    border: solid #000000 1px;
+}
+
+li a[href="POR DEFINIR"]:hover {
+    color: red; /* Cambia a tu color deseado */
+}

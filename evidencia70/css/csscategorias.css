@@ -1,0 +1,103 @@
+body {
+    background-color: #f8ebf3; /* Fondo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #000000; /* Títulos h1 */
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header {
+    text-align: center;
+    padding: none;
+    color:none;
+}
+
+.header img {
+    width: 205px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.category-card {
+    background: white;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.category-card img {
+    width: 90%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #000000;
+    margin-top: 10px; /* Ajusta el valor según tu necesidad */
+}
+
+.category-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.category-card p {
+    padding: 0 10px;
+    color: #666;
+}
+
+.category-card button {
+    background-color: #3498db; /* Color del botón en "reposo" */
+    color: #ffffff; /* Color de las letras dentro del botón */
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.category-card button:hover {
+    background-color: #ff1493; /* Más oscuro al pasar el ratón */
+}
+
+.back-button {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #ff1493;
+
+}
+
+img {
+    border-radius: 10px;
+    border: solid #000000 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}

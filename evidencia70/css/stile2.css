@@ -1,0 +1,78 @@
+body {
+    background-color: #f8ebf3; /* aqui esta lo del fondo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 15px;
+    border: solid #000000 1px;
+}
+.center-content {
+    text-align: center;
+    margin-top: 50px; /* aqui lo del div y de la imagen */
+}
+details {
+    background-color: #f8ebf3;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    width: 99%;
+    margin-bottom: 10px; /* Espacio entre detalles */
+}
+
+summary {
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+summary:hover {
+    background-color: #ff1493;
+}
+
+details[open] summary {
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    background-color: #ff1493;
+}
+
+p {
+    margin: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color:#ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20%;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    
+}
+
+button:hover {
+    background-color: #ff1493;/* para el boton volver */
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #ff1493; /* titulo h1 */
+    
+}
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaguashop - Registro</title>
+    <link rel="stylesheet" href="../css/ev67.css">
+</head>
+<body>
+    <div class="center-content">
+        <h1>Jaguashop</h1>
+        <img src="../img/imglogo.jpeg" alt="logo jagua shop" width="200" height="205">
+        <h2>Regístrate y haz parte de nuestros clientes</h2>
+        <h4>Registro de nuevo usuario</h4>
+    </div>
+    
+    <div class="center-content">
+        
+        <form action="procesar_registro.php" method="post">
+            <input type="email" id="corr_usua" name="corr_usua" placeholder="Correo electrónico" required><br>
+            <input type="password" id="cont_usua" name="cont_usua" placeholder="Contraseña" required><br>
+            <input type="int" id="id_usua" name="id_usua" placeholder="ID de Usuario" required><br>
+            <input type="text" id="usua_usua" name="usua_usua" placeholder="Nombre de usuario" required><br>
+            <input type="text" id="nomb_usua" name="nomb_usua" placeholder="Nombre" required><br>
+            <input type="text" id="apel_usua" name="apel_usua" placeholder="Apellido" required><br>
+            <input type="text" id="dire_usua" name="dire_usua" placeholder="Dirección"><br>
+            <input type="text" id="tele_usua" name="tele_usua" placeholder="Teléfono" maxlength="20"><br>
+            <input type="int" id="id_empl" name="id_empl" placeholder="ID Empleado" required><br>
+            <input type="int" id="id_clie" name="id_clie" placeholder="ID Cliente" required><br>
+            <input type="checkbox" id="es_empl" name="es_empl"> Es empleado<br>
+            <input type="submit" value="Registrar">
+        </form>
+    </div>
+
+    <section>
+        <h4><em>Se supone que el botón enviar debe llevarme a la página de confirmación</em></h4>
+        <a href="confirmacionregistro.html">
+            <button>Aquí</button>
+        </a>
+    </section>
+</body>
+</html>

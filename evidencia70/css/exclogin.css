@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura para centrar verticalmente */
+    margin: 0;
+    padding: 0;
+}
+
+.center-content {
+    text-align: center;
+}
+
+form {
+    width: 300px; /* Ancho del formulario */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: calc(100% - 20px); /* Ancho del input ajustado */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    width: calc(100% - 20px); /* Ancho del botón ajustado */
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
